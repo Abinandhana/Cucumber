@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16230493106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "add-tariff;",
+        "after": [
+          {
+            "result": {
+              "duration": 969002524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9709440176,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be in the telecom home page to add tariff",
+            "match": {
+              "location": "AddTariffSteps.user_should_be_in_the_telecom_home_page_to_add_tariff()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7913081282,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on add customer button to enter the datas",
+            "match": {
+              "location": "AddTariffSteps.user_click_on_add_customer_button_to_enter_the_datas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5748542227,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters all the fields with valid data to click submit",
+            "match": {
+              "location": "AddTariffSteps.user_enters_all_the_fields_with_valid_data_to_click_submit(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "600",
+                  "700",
+                  "100",
+                  "64",
+                  "45",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3185515627,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on submit button to get successful message",
+            "match": {
+              "location": "AddTariffSteps.user_clicks_on_submit_button_to_get_successful_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355032702,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be displayed successful message",
+            "match": {
+              "location": "AddTariffSteps.user_should_be_displayed_successful_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add Tariff",
+    "description": "",
+    "id": "add-tariff",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddTariff.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17840420903,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Uuser should be in the telecom home page to add tariff",
+            "match": {
+              "location": "AddTariffTwoDimensional.Uuser_should_be_in_the_telecom_home_page_to_add_tariff()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5828897068,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Uuser click on add customer button to enter the datas",
+            "match": {
+              "location": "AddTariffTwoDimensional.Uuser_click_on_add_customer_button_to_enter_the_datas()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13157400854,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "add-tariff-two-dimensional;",
+        "after": [
+          {
+            "result": {
+              "duration": 1372903656,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097449493,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Uuser enters all the fields with valid data to click submit.",
+            "match": {
+              "location": "AddTariffTwoDimensional.Uuser_enters_all_the_fields_with_valid_data_to_click_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2911372679,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Uuser clicks on submit button to get successful message",
+            "match": {
+              "location": "AddTariffTwoDimensional.Uuser_clicks_on_submit_button_to_get_successful_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203286003,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Uuser should be displayed successful message",
+            "match": {
+              "location": "AddTariffTwoDimensional.Uuser_should_be_displayed_successful_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add Tariff Two Dimensional",
+    "description": "",
+    "id": "add-tariff-two-dimensional",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddTariffTwoDimensional.feature",
+    "tags": []
+  }
+]

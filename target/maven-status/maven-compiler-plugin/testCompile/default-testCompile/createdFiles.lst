@@ -1,0 +1,5 @@
+com\stepdefinition\AddCustomerSteps.class
+com\stepdefinition\AddTariffTwoDimensional.class
+com\stepdefinition\AddTariffSteps.class
+com\stepdefinition\TestRunner.class
+com\stepdefinition\TestReRunner.class
