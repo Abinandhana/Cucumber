@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features",glue="com.stepdefinition",plugin= {"html:target","rerun:src/test/resources/failed.txt","json:target/report.json"},dryRun=false,monochrome=true,strict=false,tags= {"@smoke"})
+@CucumberOptions(features="src/test/resources/Features",glue="com.stepdefinition",plugin= {"html:target","json:target/report.json"},dryRun=false,monochrome=true,strict=false,tags= {"@smoke"})
 public class TestRunner {
 	
 	
